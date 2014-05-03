@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WifiTest!</string>
+    <string name="app_name">功能集合</string>
+    <string name="searchMenu">查询</string>
+    <string name="searchLabel">查询</string>
+    <string name="searchHint">请输入查询内容</string>
+    <string	name="txtLong">经度:</string>
+	<string	name="txtLat">纬度:</string>
+	<string	name="loc">定位</string>
+	<string	name="lng">113.39</string>
+	<string	name="lat">23.13</string>
+	<string	name="satellite">卫星视图</string>
+	<string	name="normal">普通视图</string>
+</resources>

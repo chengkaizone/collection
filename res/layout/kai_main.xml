@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="开始"
+    android:id="@+id/main_start"/>
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="停止"
+    android:id="@+id/main_stop"/>
+    <com.cheng.widgets.ProgressBars
+    android:max="100"
+    android:layout_width="fill_parent"
+    android:layout_height="10dip"
+    android:progress="0"
+    android:progressDrawable="@drawable/hori_drawable"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:id="@+id/main_pb"/>
+</LinearLayout>

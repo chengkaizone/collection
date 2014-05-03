@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText 
+        android:id="@+id/file_access_main_input" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:hint="请输入内容" />
+        <TableLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:stretchColumns="0,1,2,3">
+            <TableRow>
+                <Button 
+                android:id="@+id/file_write" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="写入" />
+                <Button 
+                android:id="@+id/file_read" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="读取" />
+                <Button android:id="@+id/file_writesd" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="写入sd卡" />
+                <Button 
+                android:id="@+id/file_readsd" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="读取sd卡" />
+            </TableRow>
+        </TableLayout>
+        <TextView 
+        android:id="@+id/file_access_info" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

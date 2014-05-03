@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/input_lay">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="测试输入法推挤UI问题..."
+  android:id="@+id/input_text"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"/>
+</LinearLayout>
+</ScrollView>

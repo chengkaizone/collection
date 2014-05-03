@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/expand_child"
+  android:paddingLeft="60px"
+  android:paddingTop="10px"
+  android:paddingBottom="10px"
+  android:text="显示数据"
+  android:textSize="26sp"/>
+</LinearLayout>

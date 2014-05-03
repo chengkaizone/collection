@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="用户定位"
+  android:id="@+id/location_tv"/>
+  <TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:stretchColumns="0,1,2,3">
+  <TableRow>
+  <Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="开始定位"
+  android:id="@+id/location_loc"/>
+  <Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="取消定位"
+  android:id="@+id/location_no_loc"/>
+  <Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="所有位置"
+  android:id="@+id/location_no_loc_all"/>
+  <Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="最佳位置"
+  android:id="@+id/location_no_loc_best"/>
+  </TableRow>
+  </TableLayout>
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/location_loc_info"/>
+</LinearLayout>

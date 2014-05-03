@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style
+	xmlns:android="http://schemas.android.com/apk/res/android"
+ 	name="Widget.ProgressBar.Horizontal">
+	<item name="android:indeterminateDrawable">@android:drawable/progress_small_white</item>
+	<item name="android:minWidth">16dip</item>
+	<item name="android:maxWidth">16dip</item>
+	<item name="android:minHeight">16dip</item>
+	<item name="android:maxHeight">16dip</item>
+</style>

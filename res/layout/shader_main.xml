@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TableLayout
+  android:stretchColumns="0,1,2,3,4"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  >
+  <TableRow>
+  	<Button
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="位图"
+  	android:id="@+id/shader_btn1"/>
+  	<Button
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="线性"
+  	android:id="@+id/shader_btn2"/>
+  	<Button
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="圆形"
+  	android:id="@+id/shader_btn3"/>
+  	<Button
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="角度"
+  	android:id="@+id/shader_btn4"/>
+  	<Button
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="混合"
+  	android:id="@+id/shader_btn5"/>
+  </TableRow>
+  </TableLayout>
+  <com.cheng.widgets.ShaderView
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/shader_view"/>
+</LinearLayout>

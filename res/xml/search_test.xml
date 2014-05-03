@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 此文件中的不能直接使用汉字；必须用字符串引用；否则不能调出搜索框 -->
+<searchable
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:label="@string/searchLabel"
+  android:hint="@string/searchHint"
+  android:voiceSearchMode="launchRecognizer|showVoiceSearchButton"
+  >
+</searchable>

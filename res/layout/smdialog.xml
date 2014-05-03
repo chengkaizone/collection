@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content">
+	<ImageView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:scaleType="fitCenter"
+		  android:id="@+id/dialog_img"
+		  android:layout_margin="10px"
+		  android:src="@drawable/alert_dialog_icon"/>
+	<TextView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/dialog_head"
+		  android:layout_centerVertical="true"
+		  android:layout_toRightOf="@id/dialog_img"
+		  android:textSize="23sp"
+		  android:text="免责声明"/>
+	<ImageView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/dialog_exit"
+		  android:src="@drawable/close"
+		  android:scaleType="fitCenter"
+		  android:layout_centerVertical="true"
+		  android:layout_marginRight="10px"
+		  android:layout_alignParentRight="true"/>
+	</RelativeLayout>
+ 	<ImageView
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:id="@+id/dialog_img"
+	  android:src="@drawable/line"/>
+ 	<TextView
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_margin="10sp"
+	  android:lineSpacingExtra="5sp"
+	  android:textSize="18sp"
+	  android:text="掌厅客户端用户须知:\n						尊敬的用户，本应用需要建立数据连接，联网将产生流量资费，详细资费请咨询10000。"
+	  android:id="@+id/dialog_hint"/>
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center">  
+	<CheckBox android:text="不再显示" 
+	  	android:id="@+id/ckShow" 
+	  	android:layout_width="wrap_content" 
+	  	android:layout_height="wrap_content"
+	  />
+	</LinearLayout>
+</LinearLayout>

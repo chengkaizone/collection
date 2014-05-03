@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <com.kai.widgets.MyGallery
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:unselectedAlpha="0.6"
+  android:spacing="3pt"
+  android:id="@+id/photos_gallery"/>
+</LinearLayout>

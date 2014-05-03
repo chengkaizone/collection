@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aidl远程服务调用示例"
+        android:textColor="#ff0000"/>
+    <Button 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/aidl_btn1"
+      android:text="获取员工姓名"  
+    />
+    <EditText 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/aidl_name"/>
+    <Button 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/aidl_btn2"
+      android:text="获取员工工资"  
+    />
+	<EditText 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/aidl_person"/>
+</LinearLayout>

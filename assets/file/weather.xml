@@ -1,0 +1,50 @@
+<?xml version="1.0" ?> 
+<xml_api_reply version="1">
+<weather module_id="0" tab_id="0" mobile_row="0" mobile_zipped="1" row="0" section="0">
+<forecast_information>
+  <city data="Shanghai, Shanghai" /> 
+  <postal_code data="shanghai" /> 
+  <latitude_e6 data="" /> 
+  <longitude_e6 data="" /> 
+  <forecast_date data="2012-02-21" /> 
+  <current_date_time data="2012-02-22 03:00:00 +0000" /> 
+  <unit_system data="SI" /> 
+  </forecast_information>
+<current_conditions>
+  <condition data="小雨" /> 
+  <temp_f data="48" /> 
+  <temp_c data="9" /> 
+  <humidity data="湿度： 87%" /> 
+  <icon data="/ig/images/weather/cn_lightrain.gif" /> 
+  <wind_condition data="风向： 北、风速：3 米/秒" /> 
+  </current_conditions>
+<forecast_conditions>
+  <day_of_week data="周二" /> 
+  <low data="8" /> 
+  <high data="14" /> 
+  <icon data="/ig/images/weather/cn_cloudy.gif" /> 
+  <condition data="多云" /> 
+  </forecast_conditions>
+<forecast_conditions>
+  <day_of_week data="周三" /> 
+  <low data="8" /> 
+  <high data="15" /> 
+  <icon data="/ig/images/weather/chance_of_rain.gif" /> 
+  <condition data="可能有雨" /> 
+  </forecast_conditions>
+<forecast_conditions>
+  <day_of_week data="周四" /> 
+  <low data="3" /> 
+  <high data="11" /> 
+  <icon data="/ig/images/weather/chance_of_rain.gif" /> 
+  <condition data="可能有雨" /> 
+  </forecast_conditions>
+<forecast_conditions>
+  <day_of_week data="周五" /> 
+  <low data="2" /> 
+  <high data="7" /> 
+  <icon data="/ig/images/weather/mostly_sunny.gif" /> 
+  <condition data="晴间多云" /> 
+  </forecast_conditions>
+  </weather>
+  </xml_api_reply>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:label="@string/hello"
+  android:hint="@string/hello"
+  android:searchSettingsDescription="@string/hello"
+  android:searchSuggestAuthority="searchprovider"
+  android:searchSuggestIntentAction="android.intent.action.SEARCH"
+  android:searchSuggestThreshold="1"
+  android:includeInGlobalSearch="true"
+  android:searchSuggestSelection=" ?"
+  >
+  <!-- 注意？前有一个空格 -->
+</searchable>

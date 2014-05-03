@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center_horizontal">
+  <TextView
+  android:text="以下都是蓝牙操作"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  />
+  <TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:stretchColumns="0,1,2,3,4">
+  <TableRow>
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="开启"
+  android:id="@+id/blue_set_on"/>
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="关闭"
+  android:id="@+id/blue_set_off"/>
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="已绑定"
+  android:id="@+id/blue_search_bond"/>
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="搜索所有"
+  android:id="@+id/blue_search_all"/>
+  </TableRow>
+  </TableLayout>
+  <RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  >
+  <LinearLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center_vertical"
+  android:layout_centerVertical="true"
+  android:layout_marginLeft="5px"
+  android:orientation="vertical">
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="可检测性"/>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="目前不可见"
+  android:id="@+id/blue_hint"/>
+  </LinearLayout>
+  <CheckBox
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/blue_cb"
+  android:layout_centerInParent="true"
+  android:layout_alignParentRight="true"
+  android:layout_margin="3px"/>
+  </RelativeLayout>
+  <ListView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:cacheColorHint="#00000000"
+  android:id="@+id/blue_lv"/>
+</LinearLayout>
+<Button
+    android:id="@+id/select_file"
+    android:layout_alignParentBottom="true"
+    
+    android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="发送文件"
+  />
+<TextView 
+    android:id="@+id/show_file"
+    android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textSize="18sp"
+  android:layout_alignBaseline="@id/select_file"
+  android:layout_toRightOf="@id/select_file"
+  android:text="被选路径"
+    />
+</RelativeLayout>

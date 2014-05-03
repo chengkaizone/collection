@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resolver_username"
+        android:hint="请输入姓名"/>
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resolver_password"
+        android:hint="请输入密码"/>
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resolver_insert"
+        android:text="添加数据"/>
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resolver_key"
+        android:hint="请输入id"/>
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resolver_query"
+        android:text="查看数据"/>
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/resolver_content"
+	    android:textColor="#ff0000"/>
+    </ScrollView>
+</LinearLayout>

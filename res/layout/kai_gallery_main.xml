@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="3D相册"
+    />
+    <com.cheng.widgets.CustomGallery
+    android:layout_width="fill_parent"
+    android:layout_height="160px"
+    android:unselectedAlpha="0.6"
+    android:paddingTop="0px"
+    android:spacing="0px"
+    android:animationDuration="1500"
+    android:id="@+id/kai_main_gallery"/>
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="gallery下边缘"/>
+</LinearLayout>

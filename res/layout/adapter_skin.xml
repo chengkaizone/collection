@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <ImageView
+  android:layout_width="40px"
+  android:layout_height="40px"
+  android:scaleType="fitCenter"
+  android:layout_centerVertical="true"
+  android:id="@+id/adapter_skin_img"/>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_toRightOf="@id/adapter_skin_img"
+  android:layout_centerVertical="true"
+  android:textSize="16px"
+  android:textColor="#ffffffff"
+  android:id="@+id/adapter_skin_tv"
+  android:layout_margin="5px"/>
+  <RadioButton
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/adapter_skin_rb"
+  android:clickable="false"
+  android:focusable="false"
+  android:focusableInTouchMode="false"
+  android:layout_alignParentRight="true"
+  android:layout_margin="5px"/>
+  </RelativeLayout>
+</LinearLayout>

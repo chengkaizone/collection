@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#dde4d3">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="提示"
+  android:layout_margin="3px"
+  android:textColor="#2e6db2"/>
+  <TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/check_clare"
+	android:textColor="#191919"
+	android:layout_margin="3px"
+	android:text="提示内容"/>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+<CheckBox
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/check_box"/>
+<TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textColor="#191919"
+  android:text="下次不再提示"/>
+</LinearLayout>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_margin="3px"
+android:gravity="center">
+<Button
+android:layout_width="50px"
+android:layout_height="wrap_content"
+android:text="同意"
+android:textColor="#6aa536"
+android:background="#f5f7f9"
+android:id="@+id/check_agree"/>
+<TextView
+android:layout_width="30px"
+android:layout_height="wrap_content"/>
+<Button
+android:layout_width="50px"
+android:layout_height="wrap_content"
+android:text="不同意"
+android:background="#f5f7f9"
+android:textColor="#6aa536"
+android:id="@+id/check_noagree"/>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView  
+	android:id="@+id/txt"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="15pt"
+	android:text="可通过上下文菜单修改背景色"
+	/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="wifi功能测试"
+    android:id="@+id/main_head"
+    />
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="打开wifi网卡"
+    android:id="@+id/main_btn1"/>
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="关闭wifi网卡"
+    android:id="@+id/main_btn2"/>
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="查看网卡当前状态"
+    android:id="@+id/main_btn3"/>
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:id="@+id/main_show_state"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TableLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:stretchColumns="0,1,2,3">
+  <TableRow>
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="播放音乐"
+  android:id="@+id/audio_play"/>
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="增加音量"
+  android:id="@+id/audio_add"/>
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="降低音量"
+  android:id="@+id/audio_lower"/>
+  </TableRow>
+  <ToggleButton
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/audio_toggle"/>
+  </TableLayout>
+</LinearLayout>

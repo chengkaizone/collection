@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+  android:orientation="vertical">
+    <Button 
+    android:text="下载文件" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/down_button1"></Button>
+    <Button 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:text="下载音乐" 
+    android:id="@+id/down_button2"></Button>
+    <TextView 
+    android:layout_width="match_parent" 
+    android:id="@+id/down_tv" 
+    android:layout_height="wrap_content" 
+    android:text="TextView"></TextView>
+    
+</LinearLayout>
